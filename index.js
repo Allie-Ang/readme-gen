@@ -48,6 +48,11 @@ const questions = [
     name: "email",
     message: "What is your email?",
   },
+  {
+    type: "input",
+    name: "GitHub",
+    message: "What is your GitHub username?",
+  },
 ];
 
 // Creates a function to initialize app
