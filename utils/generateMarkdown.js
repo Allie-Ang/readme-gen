@@ -7,14 +7,7 @@ function renderLicenseBadge(license) {
   return "";
 }
 
-// Creates a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-  if (license !== "NONE") {
-    return `* [License](#license)`;
-  }
-  return "";
-}
+
 
 // Creates a function that returns the license section of README
 // If there is no license, return an empty string
